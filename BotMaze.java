@@ -1,7 +1,9 @@
+//For Object-Oriented Development class, Fall 2020
+package BotMaze
 import java.util.Scanner;
 
 
-public class Assignment01 {
+public class BotMaze {
 
     public static void main(String[] args) {
         System.out.println("Enter the preferred maze size: ");
