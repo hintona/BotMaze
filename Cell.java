@@ -1,3 +1,4 @@
+package BotMaze
 class Wall {
 
 	protected boolean up, down, left, right;
