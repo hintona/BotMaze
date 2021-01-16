@@ -1,5 +1,5 @@
 //For Object-Oriented Development class, Fall 2020
-package BotMaze
+package BotMaze;
 import java.util.Scanner;
 
 
