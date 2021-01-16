@@ -1,6 +1,7 @@
 /* This Robot interface will be used to create the robots used
 in the maze
  */
+package BotMaze;
 import java.util.ArrayList;
 
 interface Robot {
