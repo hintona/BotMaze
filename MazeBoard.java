@@ -1,15 +1,16 @@
+package MazeBot;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
 /**
  *
- * @author fahmidahamid
+ * @author fahmidahamid, Alex Hinton
  *
  */
 
 
-/* Some good resources
+/* Some sources
  * https://rosettacode.org/wiki/Maze_generation#Java
  * I have taken some idea for implementing the printMazeBoard(...)
  */
@@ -126,7 +127,7 @@ class MazeBoard
 		for(int j = 0;j < this.d;j++) System.out.print("+---");
 		System.out.print("+\n");
 
-		/* This is the code given to us, I couldn't make it work with the primsAlgorithm so I
+		/* This is the code given to us by Dr. Hamid, I couldn't make it work with the primsAlgorithm so I
 		* just redid it. I have left it in here just in case something happens and I need to
 		* look at it again. The actual working code for this method is written above.
 		for(int i = 0; i < this.d; i++) {
