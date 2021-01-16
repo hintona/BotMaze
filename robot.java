@@ -21,8 +21,8 @@ class BobBot implements Robot{
   protected int d;
 
   public BobBot(MazeBoard board,int d){
-    this.name = "Ender"; ///
-    this.type = 'E';
+    this.name = "Bob"; ///
+    this.type = 'B';
     this.stepsTaken = 0;
     this.mzb = board;
     this.d = d;
@@ -141,7 +141,7 @@ class BobBot implements Robot{
       this.mzb.updateCell(i,j,this);
       stepsTaken++;
       if(stepsTaken >= 0.9*d*d){
-        System.out.print("Ender: I've searched so much of this maze for Ferris and I can't find him. I've taken "+stepsTaken+" steps. ;w;");
+        System.out.print("Bob: I've searched so much of this maze for Alice and I can't find him. I've taken "+stepsTaken+" steps.");
         System.exit(0);
       }
 
@@ -151,8 +151,8 @@ class BobBot implements Robot{
 
   public void checkForAlice(Cell c){
     if(c.whoIsHere()=='F'){
-      System.out.println("Ender: Ferris! I've finally found you, after "+stepsTaken+" steps!"); ///
-      System.out.print("Ferris: Ender! Wow, that sure sounds like a ~long~ journey uwu"); ///
+      System.out.println("Bob: Alice! I've finally found you, after "+stepsTaken+" steps!"); ///
+      System.out.print("Alice: Bob! Wow, that sure sounds like a long journey."); ///
       System.exit(0);
     }
     else return;
@@ -168,8 +168,8 @@ class AliceBot implements Robot{
   char type;
 
   public AliceBot(){
-    this.name = "Ferris";///
-    this.type = 'F';///
+    this.name = "Alice";///
+    this.type = 'A';///
   }
 
   public String getName() {
