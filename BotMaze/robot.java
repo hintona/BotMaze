@@ -141,7 +141,7 @@ class BobBot implements Robot{
       this.mzb.updateCell(i,j,this);
       stepsTaken++;
       if(stepsTaken >= 0.9*d*d){
-        System.out.print("Bob: I've searched so much of this maze for Alice and I can't find him. I've taken "+stepsTaken+" steps.");
+        System.out.print("Bob: I've searched so much of this maze for Alice and I can't find her. I've taken "+stepsTaken+" steps.");
         System.exit(0);
       }
 

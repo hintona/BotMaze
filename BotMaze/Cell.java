@@ -60,7 +60,7 @@ public class Cell {
 
 	public boolean putRobot(Robot r)
 	{
-		if (r.getType() != 'C' && r.getType() != 'P' && r.getType() != 'D' && r.getType() != 'S' && r.getType() != 'E' && r.getType() != 'F') { ///
+		if (r.getType() != 'C' && r.getType() != 'P' && r.getType() != 'D' && r.getType() != 'S' && r.getType() != 'B' && r.getType() != 'A') { ///
 			System.out.println("You are trying to put invalid/unknown object in a cell");
 			return false; //operation unsuccessful
 		}
