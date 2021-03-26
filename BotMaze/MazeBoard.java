@@ -1,4 +1,4 @@
-package MazeBot;
+package BotMaze;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
